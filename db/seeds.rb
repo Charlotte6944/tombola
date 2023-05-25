@@ -13,7 +13,7 @@ liste_lots = [
   "paquet de gateaux", "paquet de gateaux",
   "magnum de vin rouge", "bouteille de rosé", "bouteille de blanc", "bouteille de cidre", "bouteille de cidre",
   "gourde",
-  "grippes", "grippes", "gripes", "gripes", "gripes", "gripes", "gripes", "gripes", "gripes", "gripes", "grippes", "gripes", "gripes", "gripes", "gripes", "gripes", "gripes", "gripes", "gripes", "gripes", "gripes", "gripes", "gripes", "gripes",
+  "grip", "grip", "grip", "grip", "grip", "grip", "grip", "grip", "grip", "grip", "grip", "grip", "grip", "grip", "grip", "grip", "grip", "grip", "grip", "grip", "grip", "grip", "grip", "grip",
   "t-shirt",
   "casquette",
   "chorizo"]

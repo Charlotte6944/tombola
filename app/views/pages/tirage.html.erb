@@ -1,0 +1,8 @@
+<div class="container">
+  <%= image_tag("logo_baco.png", :alt => "logo baco", :id => "logo_baco") %>
+  <h1>Jouer à la tombola du Bacosun</h1>
+  <%= link_to "TIRAGE", pages_resultat_path, class: "bouton" %>
+  <p>Il ne reste plus que
+    <%= @number %> lots à gagner !
+  </p>
+</div>
