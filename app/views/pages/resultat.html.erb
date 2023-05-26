@@ -1,7 +1,16 @@
 <div class="container">
   <%= image_tag("logo_baco.png", :alt => "logo baco", :id => "logo_baco") %>
+  <% if @lots.length == 0 %>
+    <h2>Vous gagnez le dernier lot de ce tournoi :</h2>
+  <% else %>
+    <h2>Félicitation, vous gagnez :</h2>
+  <% end %>
   <h1>
     <%= @lot.name %>
   </h1>
-  <%= link_to "RETOUR", root_path, class: "bouton" %>
+  <% if @lots.length == 0 %>
+    <h2>Merci pour votre participation 2023 et à l'année prochaine !</h2>
+  <% else %>
+    <%= link_to "REJOUER", root_path, class: "bouton" %>
+  <% end %>
 </div>

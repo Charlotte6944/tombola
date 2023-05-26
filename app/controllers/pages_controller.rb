@@ -5,8 +5,9 @@ class PagesController < ApplicationController
   end
 
   def resultat
+    @lots = Lot.all
     @lot = Lot.all.sample
-    Lot.delete(@lot.id)
+    Lot.delete(@lot.id) unless @lot.id == 1
   end
 
 end
